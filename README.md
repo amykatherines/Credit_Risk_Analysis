@@ -6,11 +6,40 @@ To better determine potential customers' credit risk, we employee several Superv
 
 ## Results
 
-The results of the six different learning models are displayed below for easy comparison.  Following the chart, you'll find the individual results captured for each of thesee metrics. 
+The results of the six different learning models are displayed below for easy comparison.  Following the chart, you'll find the individual results captured for each of these metrics. 
 
 ![Model Comparison Chart](images/ModelComparisonChart.PNG)
 
-* Naive Random Sampling - 
+* Naive Random Sampling - Balance Accuracy Score & Imbalanced Classification Chart
+
+![Naive Random Oversampler Balance Accuracy Score](images/NaiveRandomOversampler-BAC.PNG)
+![Naive Random Oversampler Imbalance](images/NaiveRandomOversampler-ICR.PNG)
+
+* SMOTE - Balance Accuracy Score & Imbalanced Classification Chart
+
+![SMOTE Balance Accuracy Score](images/SMOTE-BAC.PNG)
+![SMOTE Imbalance](images/SMOTE-ICR.PNG)
+
+* Cluster Centroids - Balance Accuracy Score & Imbalanced Classification Chart
+
+![Cluster Centroids Balance Accuracy Score](images/ClusterCentroids-BAC.PNG)
+![Cluster Centroids Imbalance](images/ClusterCentroids-ICR.PNG)
+
+* SMOTEENN - Balance Accuracy Score & Imbalanced Classification Chart
+
+![SMOTEENN Balance Accuracy Score](images/SMOTEENN-BAS.PNG)
+![SMOTEENN Imbalance](images/SMOTEENN-ICR.PNG)
+
+* Balanced Random Forest Classifier - Balance Accuracy Score & Imbalanced Classification Chart
+
+![BalancedRandomForestClassifier Balance Accuracy Score](images/BalancedRandomForestClassifier-BAS.PNG)
+![BalancedRandomForestClassifier Imbalance](images/BalancedRandomForestClassifier-ICR.PNG)
+
+* Easy Ensemble Classifier - Balance Accuracy Score & Imbalanced Classification Chart
+
+![EasyEnsembleClassifier Balance Accuracy Score](images/EaseEnsembleClassifier-BAS.PNG)
+![EasyEnsembleClassifier Imbalance](images/EaseEnsembleClassifier-ICR.PNG)
+
 
 Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
 
